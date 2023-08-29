@@ -1,16 +1,12 @@
-# uniflix
+# UniFlix
 
-A new Flutter project.
+UniFlix é um projeto de um site de streaming de filmes e séries, desenvolvido para a disciplina de Programação Mobile, do curso de Engenharia de Software da Univale - Faculdade Integrada do Vale do Ivaí.
 
-## Getting Started
+## Descrição do Projeto
 
-This project is a starting point for a Flutter application.
+# Contribuidores
 
-A few resources to get you started if this is your first Flutter project:
+Aqui estão os contribuidores deste projeto:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [![Avatar da Ana](https://avatars.githubusercontent.com/u/89362822?v=4)](https://github.com/Lollieta) [Ana](https://github.com/Lollieta)
+- [![Avatar de Lucas](https://avatars.githubusercontent.com/u/106894754?v=4)](https://github.com/lucas3k) [Lucas](https://github.com/lucas3k)
