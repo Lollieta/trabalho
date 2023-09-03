@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'screens/filmes_list.dart';
 
 void main() {
