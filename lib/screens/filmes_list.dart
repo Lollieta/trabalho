@@ -52,21 +52,17 @@ class _FilmesListState extends State<FilmesList> {
                 child: Column(
                   children: [
                     Image.network(
-                      'https://upload.wikimedia.org/wikipedia/pt/0/00/Iron_Man_poster.jpg', // Mostrando a capa do filme.
-                      height: 120,
+                      filme.capa, // Mostrando a capa do filme.
+                      height: 90,
+                      alignment: Alignment.bottomCenter,
                       width: double.infinity,
                       fit: BoxFit.cover,
                     ),
-                    const Text('Aqui vai o título',
-                        style: TextStyle(
-                            fontSize: 18)), // Mostrando o título do filme.
+                    Text(filme.titulo, style: TextStyle(fontSize: 16)), // Mostrando o título do filme.
                     ListTile(
-                      leading:
-                          Text(filme.id.toString()), // Mostrando o ID do filme.
-                      subtitle: const Text(
-                          'Aqui vai o Resumo'), // Mostrando o resumo do filme.
-                      trailing: const Text(
-                          ' duração'), // Mostrando a duração do filme.
+                      leading: Text(filme.id.toString(), style: TextStyle(fontSize: 8)), // Mostrando o ID do filme.
+                      subtitle: Text(filme.resumo, style: TextStyle(fontSize: 8)), // Mostrando o resumo do filme.
+                      trailing: Text(filme.duracao.toString(), style: TextStyle(fontSize: 8)), // Mostrando a duração do filme.
                     ),
                   ],
                 ),

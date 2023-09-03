@@ -13,7 +13,7 @@ class FilmeApi {
           "titulo": "Homem de Ferro 2",
           "resumo":"Filme do Homem de Ferro",
           "atores":"Robert Downey",
-          "capa":"https://upload.wikimedia.org/wikipedia/pt/0/00/Iron_Man_poster.jpg",
+          "capa":"https://roveran.files.wordpress.com/2017/11/iron-man-2-capa-min.jpg",
           "duracao":140
       }
     ]
