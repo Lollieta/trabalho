@@ -58,11 +58,11 @@ class _FilmesListState extends State<FilmesList> {
                       width: double.infinity,
                       fit: BoxFit.cover,
                     ),
-                    Text(filme.titulo, style: TextStyle(fontSize: 16)), // Mostrando o título do filme.
+                    Text(filme.titulo, style: const TextStyle(fontSize: 16)), // Mostrando o título do filme.
                     ListTile(
-                      leading: Text(filme.id.toString(), style: TextStyle(fontSize: 8)), // Mostrando o ID do filme.
-                      subtitle: Text(filme.resumo, style: TextStyle(fontSize: 8)), // Mostrando o resumo do filme.
-                      trailing: Text(filme.duracao.toString(), style: TextStyle(fontSize: 8)), // Mostrando a duração do filme.
+                      leading: Text(filme.id.toString(), style: const TextStyle(fontSize: 8)), // Mostrando o ID do filme.
+                      subtitle: Text(filme.resumo, style: const TextStyle(fontSize: 8)), // Mostrando o resumo do filme.
+                      trailing: Text(filme.duracao.toString(), style: const TextStyle(fontSize: 8)), // Mostrando a duração do filme.
                     ),
                   ],
                 ),
