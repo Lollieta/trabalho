@@ -15,6 +15,14 @@ class FilmeApi {
           "atores":"Robert Downey",
           "capa":"https://roveran.files.wordpress.com/2017/11/iron-man-2-capa-min.jpg",
           "duracao":140
+      },
+      {
+          "id": 2,
+          "titulo": "Homem Aranha 2",
+          "resumo":"Filme do Homem Aranha",
+          "atores":"Tobey Maguire",
+          "capa":"https://cdn.fstatic.com/media/movies/photos/2016/03/homem-aranha-2_t546.jpg",
+          "duracao":160
       }
     ]
     ''';
